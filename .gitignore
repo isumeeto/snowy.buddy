@@ -1,0 +1,24 @@
+node_modules/
+dist/
+release/
+coverage/
+.DS_Store
+Thumbs.db
+*.log
+
+# Local credentials and environment files
+gemini-api-key.txt
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Local editor and OS state
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Private handoff notes are for the local development workspace
+SNOWY_HANDOFF.md
