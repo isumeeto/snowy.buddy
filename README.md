@@ -1,6 +1,6 @@
 # Snowy desktop companion
 
-An expressive Windows desktop voice companion powered exclusively by Google Gemini Live.
+A small Windows desktop companion for quick conversations, reminders, research, and everyday tasks.
 
 ## Features
 
@@ -27,7 +27,7 @@ An expressive Windows desktop voice companion powered exclusively by Google Gemi
 - **File Organization Preview**: Say “organize my Downloads” to open Windows Explorer and preview type-based folders for its top-level files. Snowy skips hidden and credential-like files, blocks recognized code project roots, and asks for approval before moving anything.
 - **Clipboard Reading**: Ask Snowy to read copied text; clipboard contents are only read on request.
 - **Live Transcript Preview**: Shows interim speech transcripts and reveals replies faster.
-- **Startup Greeting**: Snowy greets Sumit with “Sumit sir” once. In later replies, she naturally calls him “boss” without repeating “sir” each time. Only when asked to introduce herself does she say she was created by Sumit and summarize her capabilities. If Gemini cannot connect, Snowy uses the installed female Windows voice for a brief greeting.
+- **Startup Greeting**: Snowy greets Sumit by name once, then addresses him as “boss” in later replies. When asked to introduce herself, she says she was made by Sumit sir and briefly explains what she can do. If Gemini cannot connect, Snowy uses the installed female Windows voice for a brief greeting.
 - **Windows Startup**: Snowy registers itself to launch at Windows sign-in when the app is started.
 - **Voice Expressions**: Ask Snowy to show an expression. It changes the face only; Snowy does not have feelings.
 - **Pixel Themes**: Chestnut, cocoa, and walnut browns on cream. Press 1, 2, or 3 to switch; press H for the hidden state preview.

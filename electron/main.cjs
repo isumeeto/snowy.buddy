@@ -1326,7 +1326,7 @@ $synth.Rate = 0
 $synth.Volume = 100
 $synth.Speak([string]$v[0])
 `
-  await runPowerShell(script, ["Hello, Sumit sir. I'm here and ready to help. Please connect to the internet so I can help you further."], 20000)
+  await runPowerShell(script, ["Hello, Sumit! I'm here and ready to help. Please connect to the internet so I can help you further."], 20000)
   return { spoken: true }
 }
 
